@@ -1,0 +1,95 @@
+body {
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+	background-color: #455052;
+
+}
+
+.container {
+	width: 50%;
+	max-width: 500px;
+	margin: 100px auto;
+	background-color: #008B8B;
+	padding: 0 15px 15px;
+	line-height: 2;
+}
+
+h1 {
+	color: #fff;
+	border-bottom: 2px dashed #FFBE45;
+	padding-bottom: 5px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: none;
+	margin-bottom: 10px;
+}
+
+#list {
+	padding: 8px 12px;
+	background-color: #FFBE45;
+	border: none;
+	margin-bottom: 13px;
+	color: rgb(66, 66, 66);
+	transition: all 0.3s ease;
+}
+
+#list:hover {
+	background-color: #FFAB10;
+}
+
+#list:active {
+	transform: translateY(4px);
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	background: #fff;
+	margin-bottom: 7px;
+	padding: 6px;
+	font-weight: 400;
+	color: #777;
+}
+
+.close {
+	float: right;
+	display: inline-block;
+	margin: -6px -7px 0 auto;
+	padding: 12px;
+	background-color: #FFBE45;
+	color: #fff;
+	border: none;
+	font-size: 1.11vw;
+	transition: all 0.4s ease;
+}
+
+.close:hover {
+	background-color: #FFAB10;
+}
+
+.hover {
+	outline: 2px dashed #FFBE45;
+	outline-offset: 2px;
+}
+
+.notif {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 30px;
+	vertical-align: middle;
+}
+
+.notifDanger {
+	background-color: #008B8B;
+
+}

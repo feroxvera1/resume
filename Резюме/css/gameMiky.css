@@ -1,0 +1,87 @@
+body {
+	font-family: 'VT323';
+}
+
+#game {
+	width: 600px;
+	height: 300px;
+	border-bottom: 1px solid #000000;
+	margin: auto;
+}
+
+#mike {
+	width: 50px;
+	height: 50px;
+	background-image: url("../images/maike.png");
+	background-size: 100% 100%;
+	position: relative;
+	top: 250px;
+}
+
+#cactus {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background-image: url("../images/cactus.png");
+	background-size: 30px 30px;
+	top: 220px;
+	left: 570px;
+
+}
+
+#timer {
+	text-align: right;
+}
+
+#reload {
+	text-align: center;
+	letter-spacing: 7px;
+	font-weight: 200px;
+	width: 100%;
+	margin-top: 17vw;
+
+}
+
+#reload img {
+	margin-right: 10px;
+}
+
+.forward {
+	animation: cactusMov 1s infinite linear;
+}
+
+@keyframes cactusMov {
+	0% {
+		left: 540px;
+	}
+
+	100% {
+		left: 0px;
+	}
+}
+
+.jump {
+	animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+	0% {
+		top: 220px;
+	}
+
+	30% {
+		top: 190px;
+	}
+
+	50% {
+		top: 170px;
+	}
+
+	80% {
+		top: 190px;
+	}
+
+	100% {
+		top: 220px;
+	}
+}
